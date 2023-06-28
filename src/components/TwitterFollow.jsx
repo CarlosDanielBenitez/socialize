@@ -15,7 +15,7 @@ function TwitterFollow({ name, username, initialIsFollowing }) {
     return (
         <article className='follow'>
             <header className='follow__presentation'>
-                <img src={`../src/img/${username}.png`} alt=""></img>
+                <img src={`./img/${username}.png`} alt=""></img>
                 <div className='follow__user'>
                     <strong>{name}</strong>
                     <span>@{username}</span>
